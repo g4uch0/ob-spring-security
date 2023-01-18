@@ -15,7 +15,7 @@ public class HelloController {
         return "Hola mundo que tal! Hasta luego";
     }
 
-    @GetMapping("/")
+    @GetMapping("/bootsrap")
     public String bootsrap() {
 
         return """
